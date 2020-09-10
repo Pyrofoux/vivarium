@@ -1,17 +1,23 @@
-# vivarium
+# Vivarium
+
+Environnement de simulation multi-agent basé sur SimplePlaygrounds.
 
 
-XP RPS
-- réimplémentation d'un modèle de type CA
-- + écologiquement valide -- qu'est-ce qu'on retrouve ? qu'est-ce qui est différent ?
-- implémentation d'un premier prototype, première démo
+## Dépendances
+- `simple_playgrounds` v0.9.18 (*anciennement Flatland*)
+- `tqdm`
+
+## Installation
+
+Lancer la commande
+`pip install .` pour installer les dépendances
 
 
 
 ## Dynamiques de la simulation RPS
-- agent ont un corps physique -- pousser, bloquer,
-- ils ont une notion d'énergie vitale (100)
- à 0 ils disparaissent, collecte chez leurs proies (+1 -1, pas de création/destruction)
+- Chaque agent a un corps physique: ils peuvent se pousser, bloquer des chemins
+- Ils ont une notion d'énergie interne (de 0 à 100)
+
 - se reproduisent en se séparant en deux (séparation d'énergie) localement: dispersion locale
 - comportements bio-inspirés (braitenberg) chasse de proie, évitement de prédateur et d'obstacles
 
@@ -33,10 +39,3 @@ XP RPS
 7. vanilla
 note: splitting threshold at 100 --> se séparent dès le départ, amène à une proportion ~= 20 au début, mais pas
 exactement égale à cause de la première attaque sur chaque agent
-
-
-
-
-## Requirements:
-pip install `simple_playgrounds` environment from the official repo
-(TODO: add link + last version)  

@@ -23,7 +23,6 @@ class Logger():
         for label in labels:
 
             if type == 'polar':
-                #
                 plt.polar(Logger.data[label], np.arange(0,len(Logger.data[label]),1), char)
 
             elif type== 'plot':

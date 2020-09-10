@@ -7,5 +7,5 @@ setup(
    author='Younès Rabii',
    author_email='yrabii@ensc.fr',
    packages=['vivarium'],  #same as name
-   install_requires=['simple_playgrounds=0.9.18','tqdm'],
+   install_requires=['simple_playgrounds','tqdm'],
 )

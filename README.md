@@ -1,6 +1,6 @@
 # Vivarium
 
-Environnement de simulation multi-agent avec un paradigme écologoiquement valide.
+Environnement de simulation multi-agent avec un paradigme écologiquement valide.
 Basé sur [SimplePlaygrounds](https://github.com/mgarciaortiz/simple-playgrounds).
 
 

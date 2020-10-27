@@ -7,6 +7,10 @@ Basé sur [SimplePlaygrounds](https://github.com/mgarciaortiz/simple-playgrounds
 ![demo visualisation](documents/cover.gif)
 
 Développé par Younès Rabii, encadré par Clément Moulin-Frier.
+Avec l'aide précieuse de Michaël Garcia Ortiz.
+
+
+[![DOI](https://zenodo.org/badge/294344024.svg)](https://zenodo.org/badge/latestdoi/294344024)
 
 [Rapport de stage](documents/rapport.pdf)
 
